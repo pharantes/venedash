@@ -1,0 +1,59 @@
+image: docker.jamba.net/build/bionic-nodejs:10
+
+stages:
+  - build
+  - deploy
+
+variables:
+  http_proxy: http://uatproxy.jamba.net:80
+  https_proxy: http://uatproxy.jamba.net:80
+
+gulp-build:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+  after_script:
+    - rm -rf node_modules .git assets/src
+  only:
+    refs:
+      - merge_requests
+      - develop
+      - master
+  artifacts:
+    untracked: false
+    paths:
+      - $CI_PROJECT_DIR/
+      
+deploy_to_prerelease_dev-branch-automatic:
+  stage: deploy
+  variables:
+    INSTANCE: prerelease
+  script:
+    - rsync -rptv  --exclude '.git*' --exclude 'assets/src' --delete-after $CI_PROJECT_DIR/  wordpressadm@svc-storagetransfer-live.so.jamba.net:/home/wordpressadm/venedash.io/$INSTANCE/wp-content/themes/venedash.io-theme/
+  only:
+    refs:
+      - develop
+
+deploy_to_prerelease_manual:
+  stage: deploy
+  variables:
+    INSTANCE: prerelease
+  script:
+    - rsync -rptv  --exclude '.git*' --exclude 'assets/src' --delete-after $CI_PROJECT_DIR/  wordpressadm@svc-storagetransfer-live.so.jamba.net:/home/wordpressadm/venedash.io/$INSTANCE/wp-content/themes/venedash.io-theme/
+  only:
+    refs:
+    - merge_requests
+  when: manual
+
+deploy_to_live_manual:
+  stage: deploy
+  variables:
+    INSTANCE: live
+  script:
+    - rsync -rptv  --exclude '.git*' --exclude 'assets/src' --delete-after $CI_PROJECT_DIR/  wordpressadm@svc-storagetransfer-live.so.jamba.net:/home/wordpressadm/venedash.io/$INSTANCE/wp-content/themes/venedash.io-theme/
+  only:
+    refs:
+      - master
+  when: manual
+  
