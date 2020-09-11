@@ -3,7 +3,6 @@
    WordPress theme created for vene dash - developed at freenet digital
 
 # Tech stack
-
 *WordPress
 *Gulp.js
   
