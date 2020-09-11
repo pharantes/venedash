@@ -3,12 +3,12 @@
    WordPress theme created for vene dash - developed at freenet digital
 
 # Tech stack
-    *WordPress 
-    *Gulp.js
-    *Stylus css
-    *jQuery
-    *Slicky slider
-    *WP plugin ACF ( Advanced custom fields ) 
+  *WordPress 
+  *Gulp.js
+  *Stylus css
+  *jQuery
+  *Slicky slider
+  *WP plugin ACF ( Advanced custom fields ) 
   
 # Highlight
 
