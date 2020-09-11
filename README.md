@@ -12,6 +12,7 @@ WP plugin ACF ( Advanced custom fields )
   
 ### Highlight
    Comparison page: created to compare vene dash with other marketing platforms
+   
 ## Start the project locally
 On terminal:
      $ npm install
