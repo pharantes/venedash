@@ -15,6 +15,7 @@ WP plugin ACF ( Advanced custom fields )
    
 ## Start the project locally
 On terminal:
+
      $ npm install
      $ gulp
      
