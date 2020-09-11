@@ -24,7 +24,4 @@
       npm install
       gulp
 
-
-  # Live version
-      
-      <a href="http://venedash.io">vene dash</a>
+# [Live page](https://www.venedash.io "Vene dash")
