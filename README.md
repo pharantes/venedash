@@ -1,20 +1,20 @@
 # vene dash
 
-    WordPress theme created for vene dash - developed at freenet digital
+   WordPress theme created for vene dash - developed at freenet digital
 
 # Tech stack
 
-    WordPress 
-    Gulp.js
-    Stylus css
-    jQuery
-    Slicky slider
-    WP plugin ACF ( Advanced custom fields ) 
-    Xampp ( for local wordpress )
+   WordPress 
+   Gulp.js
+   Stylus css
+   jQuery
+   Slicky slider
+   WP plugin ACF ( Advanced custom fields ) 
+   Xampp ( for local wordpress )
   
   # Highlight
 
-    Comparison page: created to compare vene dash with other marketing platforms
+   Comparison page: created to compare vene dash with other marketing platforms
 
   
   # Start the project locally
@@ -25,5 +25,5 @@
       gulp
 
 # Live page
-    [vene dash](https://www.venedash.io "vene dash")
+   [vene dash](https://www.venedash.io "vene dash")
     
