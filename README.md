@@ -4,20 +4,20 @@
 
 # Tech stack
 
-  *WordPress 
-  Gulp.js
-  Stylus css
-  jQuery
-  Slicky slider
-  WP plugin ACF ( Advanced custom fields ) 
-  Xampp ( for local wordpress )
+-WordPress 
+-Gulp.js
+-Stylus css
+-jQuery
+-Slicky slider
+-WP plugin ACF ( Advanced custom fields ) 
+-Xampp ( for local wordpress )
   
-  # Highlight
+# Highlight
 
    Comparison page: created to compare vene dash with other marketing platforms
 
   
-  # Start the project locally
+# Start the project locally
   
   On terminal:
   
