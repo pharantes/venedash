@@ -1,5 +1,5 @@
 # vene dash
-   WordPress theme created for vene dash - developed at freenet digital
+   WordPress theme
    
 ## Tech stack
 * WordPress 
@@ -20,4 +20,4 @@ On terminal:
      
 ## Live page
    [venedash.io](https://www.venedash.io "vene dash")
-    
+* developed at freenet digital
