@@ -4,9 +4,12 @@
 
 # Tech stack
 
-
-1.WordPress
-2.Gulp.js
+WordPress 
+    Gulp.js
+    Stylus css
+    jQuery
+    Slicky slider
+    WP plugin ACF ( Advanced custom fields ) 
   
 # Highlight
 
@@ -17,8 +20,8 @@
   
   On terminal:
   
-      npm install
-      gulp
+     $ npm install
+     $ gulp
 
 # Live page
    [venedash.io](https://www.venedash.io "vene dash")
