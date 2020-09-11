@@ -19,7 +19,7 @@
   
   # Start the project
   
-  type on terminal:
+  On terminal:
   
       npm install
       gulp
