@@ -10,13 +10,18 @@
     jQuery
     Slicky slider
     WP plugin ACF ( Advanced custom fields ) 
-  
+    Xampp ( for local wordpress )
   
   # Highlight
 
     Comparisson page: created to compare vene dash with other marketing platforms
 
   
+  # Start the project
   
+  type on terminal:
+  
+      npm install
+      gulp
 
 
