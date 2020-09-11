@@ -4,7 +4,7 @@
 
 # Tech stack
 1.WordPress
-*Gulp.js
+2.Gulp.js
   
 # Highlight
 
