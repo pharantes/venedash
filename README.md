@@ -14,10 +14,10 @@
   
   # Highlight
 
-    Comparisson page: created to compare vene dash with other marketing platforms
+    Comparison page: created to compare vene dash with other marketing platforms
 
   
-  # Start the project
+  # Start the project locally
   
   On terminal:
   
@@ -25,3 +25,6 @@
       gulp
 
 
+  # Live version
+      
+      <a href="http://venedash.io">vene dash</a>
