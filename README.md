@@ -8,9 +8,6 @@
     Gulp.js
     Stylus css
     jQuery
-
-  # Features
-
     Slicky slider
     WP plugin ACF ( Advanced custom fields ) 
   
