@@ -4,13 +4,13 @@
 
 # Tech stack
 
-   WordPress 
-   Gulp.js
-   Stylus css
-   jQuery
-   Slicky slider
-   WP plugin ACF ( Advanced custom fields ) 
-   Xampp ( for local wordpress )
+  *WordPress 
+  *Gulp.js
+  *Stylus css
+  *jQuery
+  *Slicky slider
+  *WP plugin ACF ( Advanced custom fields ) 
+  *Xampp ( for local wordpress )
   
   # Highlight
 
